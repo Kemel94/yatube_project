@@ -1,6 +1,9 @@
 {% extends 'base.html' %}
 
-{% block main %} 
+{% block title %}
+Последние обновления на сайте
+{% endblock %}
+{% block main %}
 {% for post in posts %}
   <ul>
     <li>
